@@ -1,7 +1,10 @@
 ﻿using System;
 using System.IO;
-using System.Drawing;
-using System.Windows.Forms;
+using Avalonia;                   // TODO  |>> | dotnet new avalonia.app -n Wärmeleitung
+using Avalonia.Controls;         //TODO - |>> | dotnet add package Avalonia
+using Avalonia.Markup.Xaml;     // TODO  - |>> | dotnet add package Avalonia.Desktop
+using System.Drawing;          // TODO - | >> | dotnet add package System.Drawing.Common
+// using System.Windows.Forms; //TODO - |>> | dotnet add package System.Windows.Forms
 
 namespace Wärmeleitung
 
@@ -97,6 +100,22 @@ namespace Wärmeleitung
             {
                 Console.WriteLine($"An unexpected error occurred: {ex.Message}");
             }
+        }
+    }
+
+    public partial class MyForm : Form
+    {
+        public MyForm()
+        {
+            InitializeComponent();
+        }
+
+        private void InitializeComponent()
+        {
+            // Initialize your components here
+            this.Text = "My Form";
+            this.ClientSize = new Size(800, 600);
+            // Add controls and set properties
         }
     }
 

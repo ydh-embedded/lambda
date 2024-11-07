@@ -1,0 +1,11 @@
+<!-- App.xaml -->
+
+<!-- NOTE App.xaml defines the application-level resources and settings. -->
+
+<Application xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             x:Class="Wärmeleitung.App">
+    <Application.Resources>
+        <!-- Add application resources here -->
+    </Application.Resources>
+</Application>

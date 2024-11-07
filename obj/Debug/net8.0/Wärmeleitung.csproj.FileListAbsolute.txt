@@ -1,0 +1,6 @@
+/home/ydh/working-directory/c#/Wärmeleitung/obj/Debug/net8.0/Wärmeleitung.GeneratedMSBuildEditorConfig.editorconfig
+/home/ydh/working-directory/c#/Wärmeleitung/obj/Debug/net8.0/Wärmeleitung.AssemblyInfoInputs.cache
+/home/ydh/working-directory/c#/Wärmeleitung/obj/Debug/net8.0/Wärmeleitung.AssemblyInfo.cs
+/home/ydh/working-directory/c#/Wärmeleitung/obj/Debug/net8.0/Wärmeleitung.csproj.CoreCompileInputs.cache
+/home/ydh/working-directory/c#/Wärmeleitung/obj/Debug/net8.0/Wärmeleitung.sourcelink.json
+/home/ydh/working-directory/c#/Wärmeleitung/obj/Debug/net8.0/Wärmeleitung.csproj.AssemblyReference.cache

@@ -1,0 +1,14 @@
+<!-- MainWindow.axaml -->
+<!-- NOTE This file defines the main user interface of your application using XAML.-->
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        x:Class="Wärmeleitung.MainWindow"
+        Title="My Avalonia Application" Width="800" Height="600">
+    <StackPanel>
+        <TextBlock Text="Lambda1: " />
+        <TextBlock Name="Lambda1TextBlock" />
+        <Canvas Name="DrawingCanvas" Background="White" Height="400" />
+    </StackPanel>
+</Window>
+
+
